@@ -12,5 +12,8 @@
   "description": "",
   "devDependencies": {
     "electron": "^35.2.0"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
   }
 }
