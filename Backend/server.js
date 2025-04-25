@@ -10,6 +10,11 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
+// ✅ Add this:
+app.get('/', (req, res) => {
+  res.send('🎉 BillPro Backend is Live!');
+});
+
 // Routes
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/invoices', require('./routes/invoices'));
