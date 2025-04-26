@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "vite",
+  "installCommand": "npm install --legacy-peer-deps",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
